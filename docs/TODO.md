@@ -33,9 +33,9 @@
 - [x] 建立统一 REST 响应格式封装：`{ code, message, data }`。（ARCHITECTURE §5.2.3）
 
 ### 1.3 版本控制与开发规范
-- [ ] 初始化 Git 仓库（不执行 `git push` / `git reset --hard` / `git rebase` 等变更型操作，除非用户明确授权）。（ARCHITECTURE §2.3）
-- [ ] 建立 `.gitignore`，排除 Cocos `build/`、`library/`、`temp/`、Java `target/`/`build/`。
-- [ ] 在代码库中建立 DESIGN.md 颜色配置映射表，确保所有 Cocos UI 颜色与 CSS 变量一一对应。（DESIGN §9.2）
+- [x] 初始化 Git 仓库（不执行 `git reset --hard` / `git rebase` 等变更型操作，除非用户明确授权）。（ARCHITECTURE §2.3）
+- [x] 建立 `.gitignore`，排除 Cocos `build/`、`library/`、`temp/`、Java `target/`/`build/`。
+- [x] 在代码库中建立 DESIGN.md 颜色配置映射表，确保所有 Cocos UI 颜色与 CSS 变量一一对应。（DESIGN §9.2）
 
 ---
 
