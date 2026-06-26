@@ -81,9 +81,9 @@
 - [x] 设计 MySQL/PostgreSQL 表结构，包含用户进度、关卡配置、构件配置表。
 
 ### 3.3 静态配置内容
-- [ ] 编写 `assets/static/levels/L001.json`：L1「堵」完整配置，包括地形、水源、村庄、库存 `{ stoneWall: 5, bambooCage: 3 }`（或策划最终数值）、金钱上限与节俭阈值、模拟参数、胜负条件、提示配置。（PRD §3.3, ARCHITECTURE §4.1）
-- [ ] 编写 `assets/static/blocks/blocks.json`：石墙与竹笼构件配置，定义尺寸、花费、耐久、倒塌阈值、各旋转步的水流交互规则。（PRD §3.1, ARCHITECTURE §4.2）
-- [ ] 服务端同步放置 `server/src/main/resources/static/levels/` 下相同 JSON，保证服务端可下发配置。
+- [x] 编写 `assets/static/levels/L001.json`：L1「堵」完整配置，包括地形、水源、村庄、库存 `{ stoneWall: 5, bambooCage: 3 }`（或策划最终数值）、金钱上限与节俭阈值、模拟参数、胜负条件、提示配置。（PRD §3.3, ARCHITECTURE §4.1）
+- [x] 编写 `assets/static/blocks/blocks.json`：石墙与竹笼构件配置，定义尺寸、花费、耐久、倒塌阈值、各旋转步的水流交互规则。（PRD §3.1, ARCHITECTURE §4.2）
+- [x] 服务端同步放置 `server/src/main/resources/static/levels/` 下相同 JSON，保证服务端可下发配置。
 
 ---
 
