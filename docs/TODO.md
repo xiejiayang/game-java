@@ -160,6 +160,7 @@
 - [ ] `BambooCage.prefab`：带 Sprite、BoxCollider2D、交互脚本，支持 4 步旋转。
 
 ### 5.3 场景实现
+- [x] `BootSceneCtrl.ts` / `TitleSceneCtrl.ts` / `LevelMapSceneCtrl.ts` / `GameSceneCtrl.ts`：编写类型安全骨架，绑定事件与核心系统调用；通过 `tsc --noEmit`。
 - [ ] `BootScene.scene` + `BootSceneCtrl.ts`：
   - 全屏居中标题 + 副标题 + 进度条 + 加载文案「正在引水入渠…」。（DESIGN §5.1）
   - 资源预加载、版本号、静默登录/游客身份生成。（PRD §4）
@@ -181,6 +182,7 @@
   - 进入关卡时加载 `LevelConfig`，初始化 `PuzzleRuntime`、`MoneyWallet`、`Inventory`。（PRD §5.2）
 
 ### 5.4 弹窗实现
+- [x] `NarrativeOverlay.ts` / `ResultOverlay.ts` / `HintOverlay.ts` / `SettingsOverlay.ts` / `LoadingOverlay.ts`：编写类型安全骨架，定义入口参数与回调；通过 `tsc --noEmit`。
 - [ ] `NarrativeOverlay.ts`：关卡进入/成功/失败时半屏叙事文案，使用 `ScrollModal.prefab`。（PRD §4, §5.2）
 - [ ] `ResultOverlay.ts`：结算弹窗，显示「暂时安全」/失败原因、实际消耗、节俭判定、重试/返回按钮。（PRD §4, §5.2）
 - [ ] `HintOverlay.ts`：老河工提示层，L1 失败 1–2 次后触发，高亮关键区域。（PRD §3.1, §5.2, ARCHITECTURE §8.1）
