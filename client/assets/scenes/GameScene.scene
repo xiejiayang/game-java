@@ -21,7 +21,8 @@
     "_active": true,
     "_components": [],
     "_prefab": null,
-    "autoReleaseAssets": false
+    "autoReleaseAssets": false,
+    "_id": "08684828-3a81-41be-934c-3b4b94817736"
   },
   {
     "__type__": "cc.Node",

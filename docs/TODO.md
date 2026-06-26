@@ -145,6 +145,7 @@
 
 ### 5.1 通用 UI 组件预制体
 按 DESIGN §4 与 ARCHITECTURE §3.1 实现以下预制体，颜色、尺寸、动效严格一致：
+- [x] `Button.prefab` / `Toast.prefab` / `ScrollModal.prefab` / `Seal.prefab` / `LevelNode.prefab` / `MoneyBar.prefab` / `BlockCard.prefab` / `DeleteZone.prefab` / `WaterButton.prefab`：已生成 JSON 占位，基础 Sprite/Label/Button 组件与水墨配色就位，可在编辑器中进一步细调圆角、边框、动效。（DESIGN §4）
 - [ ] `Button.prefab`：卷轴式不对称圆角 `4px 12px 12px 4px`，悬停上移 2px + 投影加深 + 水墨晕开，按下回弹，过渡 `0.2s ease`。（DESIGN §4.1）
 - [ ] `ScrollModal.prefab`：最大宽度 480px，圆角 12px，边框 3px `--ink-dark`，左右赭石轴杆 18px，内容区内边距 32px 36px（移动端 24px 28px）。（DESIGN §4.2）
 - [ ] `Seal.prefab`：48px×48px，`--red-ink` 底色，`--paper` 文字 20px 粗体，旋转 -6deg，投影 2px 2px；含关卡节点变体 32px×32px、14px 字、旋转 -12deg。（DESIGN §4.3）
@@ -156,6 +157,7 @@
 - [ ] `Toast.prefab`：底部 80px 居中，`--ink-dark` 背景，`--paper` 文字，圆角 20px，入场 `translateY(20px)` 淡入，`0.3s ease`，停留 2 秒。（DESIGN §4.11）
 
 ### 5.2 游戏构件预制体
+- [x] `StoneWall.prefab` / `BambooCage.prefab`：已生成 JSON 占位，基础 Sprite 与配色就位；BoxCollider2D 与交互脚本待 GameScene 集成时补加。
 - [ ] `StoneWall.prefab`：带 Sprite、BoxCollider2D、交互脚本，状态 `active/collapsed`。
 - [ ] `BambooCage.prefab`：带 Sprite、BoxCollider2D、交互脚本，支持 4 步旋转。
 
