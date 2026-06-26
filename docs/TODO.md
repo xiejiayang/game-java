@@ -101,9 +101,9 @@
 - [x] 未放置构件时点击放水，弹出 Toast「请至少放置一个构件」。（DESIGN §7.2）
 
 ### 4.3 撤销与重置系统
-- [ ] 实现 `UndoSystem.ts`：维护最多 20 步撤销栈；重置时清空；进入 `Simulating` 后不可撤销。（PRD §5.2, ARCHITECTURE §5.1, §8.2）
-- [ ] 重置后库存与金钱恢复初始值，画布清空。（DESIGN §7.3）
-- [ ] 撤销栈为空时，撤销按钮禁用：`opacity: 0.5`、`cursor: not-allowed`。（DESIGN §7.3）
+- [x] 实现 `UndoSystem.ts`：维护最多 20 步撤销栈；重置时清空；进入 `Simulating` 后不可撤销。（PRD §5.2, ARCHITECTURE §5.1, §8.2）
+- [x] 重置后库存与金钱恢复初始值，画布清空。（DESIGN §7.3）
+- [x] 撤销栈为空时，撤销按钮禁用：`opacity: 0.5`、`cursor: not-allowed`。（DESIGN §7.3）
 
 ### 4.4 水流模拟系统
 - [ ] 实现 `WaterSimulation.ts`：
