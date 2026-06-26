@@ -232,23 +232,23 @@
 ## 8. 服务端 API 实现
 
 ### 8.1 关卡配置服务
-- [ ] `LevelConfigController.java` + `LevelConfigService.java`：
+- [x] `LevelConfigController.java` + `LevelConfigService.java`：
   - `GET /api/v1/levels` → `LevelConfigDTO[]`
   - `GET /api/v1/levels/{levelId}` → `LevelConfigDTO`
   - `GET /api/v1/blocks` → `BuildingBlockDTO[]`
-- [ ] 从 `static/levels/` 或数据库读取配置并返回。
+- [x] 从 `static/levels/` 或数据库读取配置并返回。
 
 ### 8.2 用户进度服务
-- [ ] `UserProgressController.java` + `UserProgressService.java` + `UserProgressRepository.java`：
+- [x] `UserProgressController.java` + `UserProgressService.java` + `UserProgressRepository.java`：
   - `GET /api/v1/users/{userId}/progress` → `UserProgressDTO`
   - `POST /api/v1/users/{userId}/progress`（Body: `GameSave`）→ 持久化并返回 `UserProgressDTO`
-- [ ] 使用 Redis 缓存热数据。
+- [x] 使用 Redis 缓存热数据。
 
 ### 8.3 成就/排行榜预留
-- [ ] `AchievementController.java` + `AchievementService.java`：仅创建接口与空实现，MVP 不开放具体功能。（PRD §3.2, ARCHITECTURE §3.2）
+- [x] `AchievementController.java` + `AchievementService.java`：仅创建接口与空实现，MVP 不开放具体功能。（PRD §3.2, ARCHITECTURE §3.2）
 
 ### 8.4 异常处理
-- [ ] 全局异常处理：统一封装错误码与消息，返回标准 `{ code, message, data }` 格式。（ARCHITECTURE §5.4）
+- [x] 全局异常处理：统一封装错误码与消息，返回标准 `{ code, message, data }` 格式。（ARCHITECTURE §5.4）
 
 ---
 
