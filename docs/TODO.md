@@ -47,8 +47,8 @@
 - [x] 定义 `PuzzleState` 枚举：`Editing`、`Simulating`、`Settling`、`Paused`。（PRD §5.3, ARCHITECTURE §4.5）
 
 ### 2.2 对象池与日志
-- [ ] 实现 `ObjectPool.ts`：针对 `WaterParticle` 的对象池，支持高中低粒子数复用。（ARCHITECTURE §7.2）
-- [ ] 实现 `Logger.ts`：带等级开关的日志工具，生产环境关闭调试日志。
+- [x] 实现 `ObjectPool.ts`：针对 `WaterParticle` 的对象池，支持高中低粒子数复用。（ARCHITECTURE §7.2）
+- [x] 实现 `Logger.ts`：带等级开关的日志工具，生产环境关闭调试日志。
 
 ### 2.3 平台适配层
 - [ ] 实现 `StorageAdapter.ts` 抽象接口，统一读写进度与设置。（ARCHITECTURE §5.1, §7.5）
