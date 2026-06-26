@@ -115,7 +115,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "0b3fbc2ff84642959a9a7f/c234326ac1"
+    "fileId": "8e011a0849f04165b839c5/5dd1122a4a"
   },
   {
     "__type__": "cc.Label",
@@ -183,7 +183,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "80a5a0cae50b49dd898bb8/95c7a6fe14"
+    "fileId": "75aba77438814b5eab6ac0/05fd40819d"
   },
   {
     "__type__": "cc.UITransform",
@@ -217,14 +217,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "01942c7e9b3042249cfbc9/39f083b3af",
+    "fileId": "6df994c41cc5498cbfbf76/5d0c0dda19",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "fbc2fc1d1e484cde9ee523/68c5c57c84"
+    "fileId": "1d54ad6fc0c5459e905a8e/60e328fb2c"
   },
   {
     "__type__": "cc.Sprite",
@@ -266,7 +266,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "80652210059240a5852866/e97c134d20"
+    "fileId": "90629ddd60104bb8b2712f/b3cc493209"
   },
   {
     "__type__": "cc.UITransform",
@@ -300,7 +300,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d51a52b8d9fa4d27a65522/e293a86899",
+    "fileId": "a436bef9be0643c0ba65da/b136516ebe",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null

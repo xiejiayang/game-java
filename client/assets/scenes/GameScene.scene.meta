@@ -2,9 +2,9 @@
   "ver": "1.1.50",
   "importer": "scene",
   "imported": true,
-  "uuid": "08684828-3a81-41be-934c-3b4b94817736",
+  "uuid": "a182135d-6f69-4b08-8880-6a6bca4f57e4",
   "files": [
-    ".json"
+    "GameScene.scene.json"
   ],
   "subMetas": {},
   "userData": {}

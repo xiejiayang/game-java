@@ -2,9 +2,9 @@
   "ver": "1.1.50",
   "importer": "scene",
   "imported": true,
-  "uuid": "2993da43-98f2-4ce4-b60a-e1d3e46aea71",
+  "uuid": "c39467b5-76b7-4348-a0f4-a0f5bd9f0384",
   "files": [
-    ".json"
+    "BootScene.scene.json"
   ],
   "subMetas": {},
   "userData": {}

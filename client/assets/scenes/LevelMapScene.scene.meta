@@ -2,9 +2,9 @@
   "ver": "1.1.50",
   "importer": "scene",
   "imported": true,
-  "uuid": "5df74bc5-370a-4ff8-ace2-cfedbbbcdc86",
+  "uuid": "d3fa3e61-3955-46bf-ad60-a3ef6932e126",
   "files": [
-    ".json"
+    "LevelMapScene.scene.json"
   ],
   "subMetas": {},
   "userData": {}
