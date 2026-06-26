@@ -57,9 +57,9 @@
 - [x] 实现 `AdAdapter.ts`：激励视频广告接口抽象，MVP 内仅留空函数与触发点注释，不接入真实广告。（PRD §3.1, DESIGN §9.1）
 
 ### 2.4 网络通信层
-- [ ] 实现 `ApiClient.ts`：统一 HTTP 请求封装，网络失败时不阻塞本地游戏，异步重试。（ARCHITECTURE §5.1, §5.4）
-- [ ] 实现 `LevelConfigApi.ts`：调用 `GET /api/v1/levels`、`GET /api/v1/levels/{levelId}`、`GET /api/v1/blocks`。（ARCHITECTURE §5.2.1）
-- [ ] 实现 `ProgressApi.ts`：调用 `GET /api/v1/users/{userId}/progress`、`POST /api/v1/users/{userId}/progress`。（ARCHITECTURE §5.2.2）
+- [x] 实现 `ApiClient.ts`：统一 HTTP 请求封装，网络失败时不阻塞本地游戏，异步重试。（ARCHITECTURE §5.1, §5.4）
+- [x] 实现 `LevelConfigApi.ts`：调用 `GET /api/v1/levels`、`GET /api/v1/levels/{levelId}`、`GET /api/v1/blocks`。（ARCHITECTURE §5.2.1）
+- [x] 实现 `ProgressApi.ts`：调用 `GET /api/v1/users/{userId}/progress`、`POST /api/v1/users/{userId}/progress`。（ARCHITECTURE §5.2.2）
 
 ---
 
