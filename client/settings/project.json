@@ -1,0 +1,25 @@
+{
+  "project_env": {
+    "type": "2d",
+    "texture_resolution": "low",
+    "render_pipeline": "builtin-2d"
+  },
+  "group": {
+    "default": 1,
+    "UI": 2,
+    "Game": 4,
+    "Water": 8
+  },
+  "layer": {
+    "default": 1,
+    "UI_2D": 2,
+    "GAME_2D": 4
+  },
+  "general": {
+    "design_resolution": {
+      "width": 1280,
+      "height": 720,
+      "policy": "FIXED_HEIGHT"
+    }
+  }
+}

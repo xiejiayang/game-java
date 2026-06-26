@@ -1,0 +1,21 @@
+{
+  "name": "dujiangyan-game-client",
+  "version": "0.1.0",
+  "description": "都江堰治水解谜游戏 - Cocos Creator 3.x 2D 客户端",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Use Cocos Creator Dashboard/CLI to build'",
+    "test": "echo 'Unit tests to be added in Task 10.1'"
+  },
+  "keywords": [
+    "cocos",
+    "game",
+    "puzzle",
+    "dujiangyan"
+  ],
+  "author": "xiejiayang",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

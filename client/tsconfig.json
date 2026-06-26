@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "./temp/scripts",
+    "rootDir": "./assets/scripts",
+    "baseUrl": ".",
+    "paths": {
+      "core/*": ["assets/scripts/core/*"],
+      "data/*": ["assets/scripts/data/*"],
+      "gameplay/*": ["assets/scripts/gameplay/*"],
+      "entities/*": ["assets/scripts/entities/*"],
+      "interactions/*": ["assets/scripts/interactions/*"],
+      "ui/*": ["assets/scripts/ui/*"],
+      "platform/*": ["assets/scripts/platform/*"],
+      "network/*": ["assets/scripts/network/*"]
+    }
+  },
+  "include": [
+    "assets/scripts/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "library",
+    "temp",
+    "local"
+  ]
+}
