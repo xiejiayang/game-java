@@ -27,6 +27,23 @@ function fileId() {
   return `${u.slice(0, 22)}/${u.slice(22)}`;
 }
 
+function compressUuid(fullUuid) {
+  const base64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+  const hex = fullUuid.replace(/-/g, '');
+  if (hex.length !== 32) return fullUuid;
+  const reserved = 5;
+  let head = hex.slice(0, reserved);
+  let out = [];
+  for (let i = reserved; i < 32; i += 3) {
+    const a = parseInt(hex[i], 16);
+    const b = parseInt(hex[i + 1], 16);
+    const c = parseInt(hex[i + 2], 16);
+    out.push(base64[(a << 2) | (b >> 2)]);
+    out.push(base64[((b & 3) << 4) | c]);
+  }
+  return head + out.join('');
+}
+
 function color(r, g, b, a = 255) {
   return { __type__: 'cc.Color', r, g, b, a };
 }
@@ -203,8 +220,10 @@ class BaseBuilder {
   }
 
   addScript(nodeId, className) {
+    const scriptUuid = SCRIPT_UUIDS[className];
+    const typeTag = scriptUuid ? compressUuid(scriptUuid) : className;
     return this.add({
-      __type__: className,
+      __type__: typeTag,
       _name: '',
       _objFlags: 0,
       __editorExtras__: {},
