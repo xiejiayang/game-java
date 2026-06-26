@@ -126,7 +126,7 @@
   - 横放时粒子 x 方向反弹或阻挡。（PRD §5.2）
 
 ### 4.6 结算系统
-- [ ] 实现 `SettlementSystem.ts`：
+- [x] 实现 `SettlementSystem.ts`：
   - 成功：村庄未被淹没 → 显示「暂时安全」。（PRD §5.2）
   - 失败：村庄被淹 →「村子仍被淹」；石墙倒塌导致村庄被淹 →「墙倒了」。（PRD §5.2）
   - 计算 `isFrugal`，更新 `LevelState.attempts`、解锁 L2 预览状态。（PRD §5.2, §3.3）
