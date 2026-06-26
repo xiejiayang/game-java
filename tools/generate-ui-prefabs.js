@@ -384,6 +384,9 @@ function buildWaterButton() {
 function buildStoneWall() {
   const b = new PrefabBuilder('StoneWall');
   const rootId = b.addRoot({ name: 'StoneWall' });
+  const labelId = b.addChild(rootId, { name: 'Label' });
+  const labelCompId = b.addLabel(labelId, '石', 24, PALETTE.paper, 64);
+  b.setComponents(labelId, size(64, 64), [labelCompId]);
   const spriteId = b.addSprite(rootId, PALETTE.inkGray);
   b.setComponents(rootId, size(64, 64), [spriteId]);
   return b.finalize();
@@ -392,6 +395,9 @@ function buildStoneWall() {
 function buildBambooCage() {
   const b = new PrefabBuilder('BambooCage');
   const rootId = b.addRoot({ name: 'BambooCage' });
+  const labelId = b.addChild(rootId, { name: 'Label' });
+  const labelCompId = b.addLabel(labelId, '竹', 24, PALETTE.inkDark, 64);
+  b.setComponents(labelId, size(64, 64), [labelCompId]);
   const spriteId = b.addSprite(rootId, PALETTE.greenPale);
   b.setComponents(rootId, size(64, 64), [spriteId]);
   return b.finalize();

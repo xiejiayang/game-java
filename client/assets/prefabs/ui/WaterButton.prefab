@@ -118,7 +118,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "5c4299c71cd94d09846509/a91686a32a"
+    "fileId": "83ec34b32d0340c2a70893/61ffe61158"
   },
   {
     "__type__": "cc.Label",
@@ -186,7 +186,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "a9d8905b4d0f4a4f802bd0/9196026867"
+    "fileId": "948005a466204dddacc950/a038e101e3"
   },
   {
     "__type__": "cc.UITransform",
@@ -220,14 +220,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f2ecd48518f640c7aef6c0/4ab28a232c",
+    "fileId": "3575c23d7feb4cfca6cd16/be4a4e4f81",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "e8ff52dc0f0246d6818a8f/a0fa3d956c"
+    "fileId": "505f38d3f2c841c28b494c/1fa10d5044"
   },
   {
     "__type__": "cc.Sprite",
@@ -269,7 +269,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "36bfc63dd5624f15bf2f1b/b516c37035"
+    "fileId": "a6c4dd744c41493293fa07/ce5da24004"
   },
   {
     "__type__": "cc.Button",
@@ -326,7 +326,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "5c0f0453d86f42898eb387/eef4f623bc"
+    "fileId": "e2cdbd4a86eb4bfc920563/d3c8937391"
   },
   {
     "__type__": "cc.UITransform",
@@ -360,7 +360,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "83ede7bc4070465f82e6a4/81b31d40bc",
+    "fileId": "f454f047546746499e71a7/3f8c6e6b88",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
