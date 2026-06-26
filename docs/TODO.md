@@ -95,10 +95,10 @@
 - [x] 金钱不足、库存不足时通过 Toast 提示，不阻塞操作。（DESIGN §7.2）
 
 ### 4.2 放置系统
-- [ ] 实现 `PlacementSystem.ts`：处理拖拽、网格吸附（默认 0.5 米网格）、旋转 90° 步进、删除区拖拽删除、碰撞检测。（PRD §5.2, ARCHITECTURE §5.1）
-- [ ] 位置占用时弹出 Toast「位置已被占用」。（DESIGN §7.2）
-- [ ] 点击已放置构件旋转：`rotStep = (rotStep + 1) % 4`。（PRD §5.2）
-- [ ] 未放置构件时点击放水，弹出 Toast「请至少放置一个构件」。（DESIGN §7.2）
+- [x] 实现 `PlacementSystem.ts`：处理拖拽、网格吸附（默认 0.5 米网格）、旋转 90° 步进、删除区拖拽删除、碰撞检测。（PRD §5.2, ARCHITECTURE §5.1）
+- [x] 位置占用时弹出 Toast「位置已被占用」。（DESIGN §7.2）
+- [x] 点击已放置构件旋转：`rotStep = (rotStep + 1) % 4`。（PRD §5.2）
+- [x] 未放置构件时点击放水，弹出 Toast「请至少放置一个构件」。（DESIGN §7.2）
 
 ### 4.3 撤销与重置系统
 - [ ] 实现 `UndoSystem.ts`：维护最多 20 步撤销栈；重置时清空；进入 `Simulating` 后不可撤销。（PRD §5.2, ARCHITECTURE §5.1, §8.2）
