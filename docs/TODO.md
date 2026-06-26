@@ -117,11 +117,11 @@
 - [x] 实现性能分级：高端 600 粒子/60fps、中端 400 粒子/30fps、低端 200 粒子/优先交互帧率；仅影响视觉密度，不影响判定。（PRD §6.5, ARCHITECTURE §7.2）
 
 ### 4.5 构件交互
-- [ ] 实现 `WaterInteraction.ts` 基类/接口。（ARCHITECTURE §3.1）
-- [ ] 实现 `StoneWallInteraction.ts`：
+- [x] 实现 `WaterInteraction.ts` 基类/接口。（ARCHITECTURE §3.1）
+- [x] 实现 `StoneWallInteraction.ts`：
   - 粒子 x 方向反弹并衰减；对墙产生水势压力累积。（PRD §5.2, DESIGN §6.6）
   - 压力 ≥ `collapseThreshold` 后 0.8–2 秒内进入 `Collapsed` 状态，不再阻挡水流，透明度降至 0.35。（PRD §3.3, §5.2, DESIGN §6.6, ARCHITECTURE §8.1）
-- [ ] 实现 `BambooCageInteraction.ts`：
+- [x] 实现 `BambooCageInteraction.ts`：
   - 竖放（rotStep 对应竖放）时粒子 x 减速，y 方向被推向上/下两侧（分水）。（PRD §5.2, DESIGN §6.6）
   - 横放时粒子 x 方向反弹或阻挡。（PRD §5.2）
 
