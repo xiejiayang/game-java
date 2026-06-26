@@ -75,10 +75,10 @@
 - [x] 实现 `PuzzleRuntime` 接口与运行时数据结构，含 `levelId/state/money/inventory/placedBlocks/undoStack/simulation`。（ARCHITECTURE §4.5）
 
 ### 3.2 服务端数据模型
-- [ ] 实现 Java 实体：`LevelConfigEntity`、`BuildingBlockEntity`、`UserProgressEntity`。（ARCHITECTURE §3.2）
-- [ ] 实现 DTO：`LevelConfigDTO`、`BuildingBlockDTO`、`UserProgressDTO`。（ARCHITECTURE §3.2）
-- [ ] 实现 Repository 层：`LevelConfigRepository`、`UserProgressRepository`。（ARCHITECTURE §3.2）
-- [ ] 设计 MySQL/PostgreSQL 表结构，包含用户进度、关卡配置、构件配置表。
+- [x] 实现 Java 实体：`LevelConfigEntity`、`BuildingBlockEntity`、`UserProgressEntity`。（ARCHITECTURE §3.2）
+- [x] 实现 DTO：`LevelConfigDTO`、`BuildingBlockDTO`、`UserProgressDTO`。（ARCHITECTURE §3.2）
+- [x] 实现 Repository 层：`LevelConfigRepository`、`UserProgressRepository`。（ARCHITECTURE §3.2）
+- [x] 设计 MySQL/PostgreSQL 表结构，包含用户进度、关卡配置、构件配置表。
 
 ### 3.3 静态配置内容
 - [ ] 编写 `assets/static/levels/L001.json`：L1「堵」完整配置，包括地形、水源、村庄、库存 `{ stoneWall: 5, bambooCage: 3 }`（或策划最终数值）、金钱上限与节俭阈值、模拟参数、胜负条件、提示配置。（PRD §3.3, ARCHITECTURE §4.1）
