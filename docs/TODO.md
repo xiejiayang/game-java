@@ -42,9 +42,9 @@
 ## 2. 客户端核心框架
 
 ### 2.1 事件总线与状态机
-- [ ] 实现 `EventBus.ts`：类型安全的事件发布/订阅总线。（ARCHITECTURE §3.1）
-- [ ] 实现 `StateMachine.ts`：泛型状态机，驱动 `PuzzleRuntime.state` 切换，禁止业务代码直接修改状态字段。（ARCHITECTURE §7.5）
-- [ ] 定义 `PuzzleState` 枚举：`Editing`、`Simulating`、`Settling`、`Paused`。（PRD §5.3, ARCHITECTURE §4.5）
+- [x] 实现 `EventBus.ts`：类型安全的事件发布/订阅总线。（ARCHITECTURE §3.1）
+- [x] 实现 `StateMachine.ts`：泛型状态机，驱动 `PuzzleRuntime.state` 切换，禁止业务代码直接修改状态字段。（ARCHITECTURE §7.5）
+- [x] 定义 `PuzzleState` 枚举：`Editing`、`Simulating`、`Settling`、`Paused`。（PRD §5.3, ARCHITECTURE §4.5）
 
 ### 2.2 对象池与日志
 - [ ] 实现 `ObjectPool.ts`：针对 `WaterParticle` 的对象池，支持高中低粒子数复用。（ARCHITECTURE §7.2）
