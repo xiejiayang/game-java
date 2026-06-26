@@ -51,10 +51,10 @@
 - [x] 实现 `Logger.ts`：带等级开关的日志工具，生产环境关闭调试日志。
 
 ### 2.3 平台适配层
-- [ ] 实现 `StorageAdapter.ts` 抽象接口，统一读写进度与设置。（ARCHITECTURE §5.1, §7.5）
-- [ ] 实现 `H5Storage.ts`：基于 `localStorage` 的实现，读写失败回退默认进度。（PRD §3.1, ARCHITECTURE §5.1）
-- [ ] 实现 `WXStorage.ts`：微信小游戏 `wx.*` 存储实现，仅在平台为 wechat 时启用。（ARCHITECTURE §2.1）
-- [ ] 实现 `AdAdapter.ts`：激励视频广告接口抽象，MVP 内仅留空函数与触发点注释，不接入真实广告。（PRD §3.1, DESIGN §9.1）
+- [x] 实现 `StorageAdapter.ts` 抽象接口，统一读写进度与设置。（ARCHITECTURE §5.1, §7.5）
+- [x] 实现 `H5Storage.ts`：基于 `localStorage` 的实现，读写失败回退默认进度。（PRD §3.1, ARCHITECTURE §5.1）
+- [x] 实现 `WXStorage.ts`：微信小游戏 `wx.*` 存储实现，仅在平台为 wechat 时启用。（ARCHITECTURE §2.1）
+- [x] 实现 `AdAdapter.ts`：激励视频广告接口抽象，MVP 内仅留空函数与触发点注释，不接入真实广告。（PRD §3.1, DESIGN §9.1）
 
 ### 2.4 网络通信层
 - [ ] 实现 `ApiClient.ts`：统一 HTTP 请求封装，网络失败时不阻塞本地游戏，异步重试。（ARCHITECTURE §5.1, §5.4）
