@@ -6,10 +6,65 @@
     "__editorExtras__": {},
     "_native": "",
     "data": {
-      "__id__": 6
+      "__id__": 1
     },
     "optimizationPolicy": 0,
     "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "WaterButton",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 11
+      }
+    ],
+    "_prefab": {
+      "__id__": 14
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
   },
   {
     "__type__": "cc.Node",
@@ -17,20 +72,20 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
-      "__id__": 6
+      "__id__": 1
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 4
+        "__id__": 6
       },
       {
-        "__id__": 2
+        "__id__": 4
       }
     ],
     "_prefab": {
-      "__id__": 5
+      "__id__": 7
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -63,7 +118,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "cc839a4d92cc44a69c579a/1f78fbaffa"
+    "fileId": "5c4299c71cd94d09846509/a91686a32a"
   },
   {
     "__type__": "cc.Label",
@@ -71,11 +126,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 0
+      "__id__": 2
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 1
+      "__id__": 3
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -131,7 +186,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "e76a71cf76104940b61443/fa40555ddc"
+    "fileId": "a9d8905b4d0f4a4f802bd0/9196026867"
   },
   {
     "__type__": "cc.UITransform",
@@ -139,11 +194,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 0
+      "__id__": 2
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 3
+      "__id__": 5
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -160,74 +215,19 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 0
+      "__id__": 2
     },
     "asset": {
       "__id__": 0
     },
-    "fileId": "51bda88d43af4358bb4871/bf9ea21602",
+    "fileId": "f2ecd48518f640c7aef6c0/4ab28a232c",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
-    "__type__": "cc.Node",
-    "_name": "WaterButton",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "_parent": null,
-    "_children": [
-      {
-        "__id__": 0
-      }
-    ],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 12
-      },
-      {
-        "__id__": 8
-      },
-      {
-        "__id__": 10
-      }
-    ],
-    "_prefab": {
-      "__id__": 13
-    },
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_mobility": 0,
-    "_layer": 1073741824,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_id": ""
-  },
-  {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "09f1de68f8524a3fa1ff51/a2205fe5f2"
+    "fileId": "e8ff52dc0f0246d6818a8f/a0fa3d956c"
   },
   {
     "__type__": "cc.Sprite",
@@ -235,11 +235,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 6
+      "__id__": 1
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 7
+      "__id__": 8
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -269,7 +269,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "3bd2a9728490423cb2352c/417a2d170b"
+    "fileId": "36bfc63dd5624f15bf2f1b/b516c37035"
   },
   {
     "__type__": "cc.Button",
@@ -277,38 +277,14 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 6
+      "__id__": 1
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 9
+      "__id__": 10
     },
-    "_customMaterial": null,
-    "_srcBlendFactor": 2,
-    "_dstBlendFactor": 4,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_spriteFrame": null,
-    "_type": 1,
-    "_fillType": 0,
-    "_sizeMode": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_useGrayscale": false,
-    "_atlas": null,
     "_id": "",
-    "_transition": 2,
+    "_transition": 1,
     "_normalColor": {
       "__type__": "cc.Color",
       "r": 58,
@@ -343,11 +319,14 @@
     "_disabledSprite": null,
     "_duration": 0.1,
     "_zoomScale": 1.2,
+    "_target": {
+      "__id__": 1
+    },
     "_clickEvents": []
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "db7e349216dd4387ad9999/78fced4a75"
+    "fileId": "5c0f0453d86f42898eb387/eef4f623bc"
   },
   {
     "__type__": "cc.UITransform",
@@ -355,11 +334,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 6
+      "__id__": 1
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 11
+      "__id__": 12
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -376,12 +355,12 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 6
+      "__id__": 1
     },
     "asset": {
       "__id__": 0
     },
-    "fileId": "be4f7564434f48c89d7f2c/513cb56f7e",
+    "fileId": "83ede7bc4070465f82e6a4/81b31d40bc",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
