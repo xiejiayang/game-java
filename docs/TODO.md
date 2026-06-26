@@ -66,13 +66,13 @@
 ## 3. 数据模型与配置
 
 ### 3.1 客户端数据模型
-- [ ] 实现 `LevelConfig.ts`：完整 TypeScript 接口，包含 `id/name/description/narrative/terrain/waterSource/village/inventory/money/simulation/winCondition/failCondition/hint`。（ARCHITECTURE §4.1）
-- [ ] 实现 `BuildingBlockConfig.ts`：完整接口，包含 `id/name/type/icon/size/cost/maxHealth/collapseThreshold/interactions/rotatable/rotStepCount`。（ARCHITECTURE §4.2）
-- [ ] 实现 `PlacedBlock.ts`：包含 `instanceId/configId/position/rotStep/state/currentPressure`。（ARCHITECTURE §4.3）
-- [ ] 实现 `WaterParticle.ts`：包含 `id/position/velocity/mass/lifeTime/isActive`。（ARCHITECTURE §4.3）
-- [ ] 实现 `VillageZone.ts`：包含 `position/size/hitCount/flooded`。（ARCHITECTURE §4.3）
-- [ ] 实现 `UserProfile.ts`、`LevelState.ts`、`GameSave.ts`、`GameSettings.ts`、`Achievement.ts`。（ARCHITECTURE §4.4）
-- [ ] 实现 `PuzzleRuntime` 接口与运行时数据结构，含 `levelId/state/money/inventory/placedBlocks/undoStack/simulation`。（ARCHITECTURE §4.5）
+- [x] 实现 `LevelConfig.ts`：完整 TypeScript 接口，包含 `id/name/description/narrative/terrain/waterSource/village/inventory/money/simulation/winCondition/failCondition/hint`。（ARCHITECTURE §4.1）
+- [x] 实现 `BuildingBlockConfig.ts`：完整接口，包含 `id/name/type/icon/size/cost/maxHealth/collapseThreshold/interactions/rotatable/rotStepCount`。（ARCHITECTURE §4.2）
+- [x] 实现 `PlacedBlock.ts`：包含 `instanceId/configId/position/rotStep/state/currentPressure`。（ARCHITECTURE §4.3）
+- [x] 实现 `WaterParticle.ts`：包含 `id/position/velocity/mass/lifeTime/isActive`。（ARCHITECTURE §4.3）
+- [x] 实现 `VillageZone.ts`：包含 `position/size/hitCount/flooded`。（ARCHITECTURE §4.3）
+- [x] 实现 `UserProfile.ts`、`LevelState.ts`、`GameSave.ts`、`GameSettings.ts`、`Achievement.ts`。（ARCHITECTURE §4.4）
+- [x] 实现 `PuzzleRuntime` 接口与运行时数据结构，含 `levelId/state/money/inventory/placedBlocks/undoStack/simulation`。（ARCHITECTURE §4.5）
 
 ### 3.2 服务端数据模型
 - [ ] 实现 Java 实体：`LevelConfigEntity`、`BuildingBlockEntity`、`UserProgressEntity`。（ARCHITECTURE §3.2）
