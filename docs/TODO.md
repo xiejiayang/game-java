@@ -106,7 +106,7 @@
 - [x] 撤销栈为空时，撤销按钮禁用：`opacity: 0.5`、`cursor: not-allowed`。（DESIGN §7.3）
 
 ### 4.4 水流模拟系统
-- [ ] 实现 `WaterSimulation.ts`：
+- [x] 实现 `WaterSimulation.ts`：
   - 固定时间步长（默认 1/60 秒），与渲染帧率解耦。（PRD §6.5, ARCHITECTURE §7.1）
   - 禁用真随机；湍流使用预计算噪声表或固定种子。（PRD §6.5, ARCHITECTURE §7.1）
   - 浮点运算统一精度或截断小数位，确保跨设备确定性。（PRD §6.5, ARCHITECTURE §7.1）
@@ -114,7 +114,7 @@
   - 粒子水平速度 80–110 px/s，带轻微 y 轴偏移与重力下沉。（DESIGN §6.6）
   - 与构件碰撞后按 `WaterInteractionRule` 改变速度。（ARCHITECTURE §4.2）
   - 每帧独立统计进入村庄受击区域的粒子数 `villageHitCount`，与渲染粒子数解耦。（PRD §5.2, §6.5, ARCHITECTURE §7.1）
-- [ ] 实现性能分级：高端 600 粒子/60fps、中端 400 粒子/30fps、低端 200 粒子/优先交互帧率；仅影响视觉密度，不影响判定。（PRD §6.5, ARCHITECTURE §7.2）
+- [x] 实现性能分级：高端 600 粒子/60fps、中端 400 粒子/30fps、低端 200 粒子/优先交互帧率；仅影响视觉密度，不影响判定。（PRD §6.5, ARCHITECTURE §7.2）
 
 ### 4.5 构件交互
 - [ ] 实现 `WaterInteraction.ts` 基类/接口。（ARCHITECTURE §3.1）
