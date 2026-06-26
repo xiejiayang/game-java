@@ -133,7 +133,7 @@
   - 结算后异步上报服务端保存进度，失败不影响本地结果。（PRD §6.6, ARCHITECTURE §5.3）
 
 ### 4.7 运行时主控
-- [ ] 实现 `PuzzleRuntime.ts`：
+- [x] 实现 `PuzzleRuntime.ts`：
   - 持有状态机、金钱、库存、已放置构件、撤销栈、模拟数据。（ARCHITECTURE §4.5, §5.1）
   - 状态转换：`Editing → Simulating → Settling → Editing` 或 `LevelMap`；`Simulating ↔ Paused`。（PRD §5.3）
   - 点击放水时校验库存/金钱/布局合法后切换为 `Simulating`。（PRD §5.2）
