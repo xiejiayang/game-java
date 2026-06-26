@@ -1,0 +1,63 @@
+{
+  "id": "L001",
+  "name": "堵",
+  "description": "河道从左向右，村庄在右下侧。试着治水。",
+  "narrative": {
+    "enter": "岷江水急，村子危在旦夕。老河工说：堵不如疏。",
+    "success": "水势稍缓，村子暂时安全。",
+    "fail": "水势太猛，村子仍被淹。"
+  },
+  "terrain": {
+    "bounds": { "width": 20, "height": 10 },
+    "riverPath": { "type": "rect", "x": 0, "y": 3, "width": 20, "height": 4 },
+    "gridSize": 0.5,
+    "obstacles": []
+  },
+  "waterSource": {
+    "position": { "x": 0.5, "y": 5 },
+    "baseFlow": 5,
+    "peakFlow": 15,
+    "stableFlow": 10,
+    "spawnInterval": 0.1
+  },
+  "village": {
+    "position": { "x": 16, "y": 2 },
+    "size": { "width": 2.5, "height": 2.5 },
+    "hitThreshold": 50
+  },
+  "inventory": {
+    "stoneWall": 5,
+    "bambooCage": 3
+  },
+  "money": {
+    "max": 100,
+    "frugalThreshold": 60,
+    "placementCost": {
+      "stoneWall": 10,
+      "bambooCage": 8
+    }
+  },
+  "simulation": {
+    "maxDuration": 15,
+    "timeStep": 0.0166667,
+    "flowCurve": {
+      "baseDuration": 2,
+      "peakDuration": 3,
+      "stableDuration": 10
+    }
+  },
+  "winCondition": {
+    "villageNotFlooded": true
+  },
+  "failCondition": {
+    "villageFlooded": true,
+    "wallCollapsedCausedFlood": true
+  },
+  "hint": {
+    "triggerAttempts": 2,
+    "text": "竹笼竖放可分水，把主流引向远离村庄的支流。",
+    "highlightAreas": [
+      { "x": 8, "y": 3, "width": 2, "height": 6 }
+    ]
+  }
+}

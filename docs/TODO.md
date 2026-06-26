@@ -26,11 +26,11 @@
 - [x] 配置 TypeScript 严格模式，启用类型检查。
 
 ### 1.2 服务端工程搭建
-- [ ] 使用 Spring Boot（Maven 或 Gradle）初始化 `server/` 工程。（PRD §6.3, ARCHITECTURE §2.2）
-- [ ] 建立 `src/main/java/com/dujiangyan/game/` 包结构，按 ARCHITECTURE §3.2 创建：`config/`, `controller/`, `service/`, `repository/`, `entity/`, `dto/`, `exception/`, `util/`。
-- [ ] 建立 `src/main/resources/static/levels/`、`db/migration/` 与 `Dockerfile`。（ARCHITECTURE §3.2）
-- [ ] 配置 `application.yml`，包含数据库（MySQL/PostgreSQL）与 Redis 连接占位。
-- [ ] 建立统一 REST 响应格式封装：`{ code, message, data }`。（ARCHITECTURE §5.2.3）
+- [x] 使用 Spring Boot（Maven 或 Gradle）初始化 `server/` 工程。（PRD §6.3, ARCHITECTURE §2.2）
+- [x] 建立 `src/main/java/com/dujiangyan/game/` 包结构，按 ARCHITECTURE §3.2 创建：`config/`, `controller/`, `service/`, `repository/`, `entity/`, `dto/`, `exception/`, `util/`。
+- [x] 建立 `src/main/resources/static/levels/`、`db/migration/` 与 `Dockerfile`。（ARCHITECTURE §3.2）
+- [x] 配置 `application.yml`，包含数据库（MySQL/PostgreSQL）与 Redis 连接占位。
+- [x] 建立统一 REST 响应格式封装：`{ code, message, data }`。（ARCHITECTURE §5.2.3）
 
 ### 1.3 版本控制与开发规范
 - [ ] 初始化 Git 仓库（不执行 `git push` / `git reset --hard` / `git rebase` 等变更型操作，除非用户明确授权）。（ARCHITECTURE §2.3）

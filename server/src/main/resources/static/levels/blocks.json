@@ -1,0 +1,37 @@
+{
+  "blocks": [
+    {
+      "id": "stoneWall",
+      "name": "石墙",
+      "type": "stoneWall",
+      "icon": "assets/textures/blocks/stoneWall.png",
+      "size": { "width": 1, "height": 0.25 },
+      "cost": 10,
+      "maxHealth": 100,
+      "collapseThreshold": 80,
+      "rotatable": true,
+      "rotStepCount": 4,
+      "interactions": [
+        { "rotStep": 0, "incomingDirection": "right", "response": "reflect", "velocityChange": { "x": -1, "y": 0 }, "pressureMultiplier": 1.0 },
+        { "rotStep": 0, "incomingDirection": "left", "response": "reflect", "velocityChange": { "x": 1, "y": 0 }, "pressureMultiplier": 1.0 },
+        { "rotStep": 1, "incomingDirection": "up", "response": "reflect", "velocityChange": { "x": 0, "y": -1 }, "pressureMultiplier": 1.0 },
+        { "rotStep": 1, "incomingDirection": "down", "response": "reflect", "velocityChange": { "x": 0, "y": 1 }, "pressureMultiplier": 1.0 }
+      ]
+    },
+    {
+      "id": "bambooCage",
+      "name": "竹笼",
+      "type": "bambooCage",
+      "icon": "assets/textures/blocks/bambooCage.png",
+      "size": { "width": 1, "height": 0.25 },
+      "cost": 8,
+      "rotatable": true,
+      "rotStepCount": 4,
+      "interactions": [
+        { "rotStep": 0, "incomingDirection": "right", "response": "divertUp", "velocityChange": { "x": 0.3, "y": 1 }, "pressureMultiplier": 0.2 },
+        { "rotStep": 0, "incomingDirection": "right", "response": "divertDown", "velocityChange": { "x": 0.3, "y": -1 }, "pressureMultiplier": 0.2 },
+        { "rotStep": 2, "incomingDirection": "right", "response": "block", "velocityChange": { "x": -0.5, "y": 0 }, "pressureMultiplier": 0.5 }
+      ]
+    }
+  ]
+}
