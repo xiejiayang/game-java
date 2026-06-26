@@ -1,10 +1,14 @@
+import { _decorator, Component } from 'cc';
 import { Logger } from '../../core/Logger';
+
+const { ccclass } = _decorator;
 
 /**
  * TitleScene 控制器
  * 来源：PRD §4, DESIGN §5.2
  */
-export class TitleSceneCtrl {
+@ccclass('TitleSceneCtrl')
+export class TitleSceneCtrl extends Component {
     private readonly logger = new Logger('TitleSceneCtrl');
 
     public onLoad(): void {

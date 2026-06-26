@@ -1,11 +1,15 @@
+import { _decorator, Component } from 'cc';
 import { Logger } from '../../core/Logger';
 import { Toast } from '../components/Toast';
+
+const { ccclass } = _decorator;
 
 /**
  * LevelMapScene 控制器
  * 来源：PRD §4, DESIGN §5.3
  */
-export class LevelMapSceneCtrl {
+@ccclass('LevelMapSceneCtrl')
+export class LevelMapSceneCtrl extends Component {
     private readonly logger = new Logger('LevelMapSceneCtrl');
 
     public onLoad(): void {

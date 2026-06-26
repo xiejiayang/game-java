@@ -1,19 +1,26 @@
+import { _decorator, Component } from 'cc';
 import { Logger } from '../../core/Logger';
 import { PuzzleRuntime } from '../../gameplay/PuzzleRuntime';
 import { LevelConfig } from '../../data/LevelConfig';
 import { BuildingBlockConfig } from '../../data/BuildingBlockConfig';
 import { eventBus } from '../../core/EventBus';
 
+const { ccclass } = _decorator;
+
 /**
  * GameScene 控制器
  * 来源：PRD §4, DESIGN §5.4
  */
-export class GameSceneCtrl {
+@ccclass('GameSceneCtrl')
+export class GameSceneCtrl extends Component {
     private readonly logger = new Logger('GameSceneCtrl');
     private runtime: PuzzleRuntime | null = null;
 
-    public onLoad(levelConfig: LevelConfig, blockConfigs: BuildingBlockConfig[]): void {
+    public onLoad(): void {
         this.logger.info('GameScene onLoad');
+    }
+
+    public init(levelConfig: LevelConfig, blockConfigs: BuildingBlockConfig[]): void {
         const configMap: Record<string, BuildingBlockConfig> = {};
         for (const c of blockConfigs) {
             configMap[c.id] = c;

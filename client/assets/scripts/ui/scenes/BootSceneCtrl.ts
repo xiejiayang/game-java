@@ -1,10 +1,14 @@
+import { _decorator, Component } from 'cc';
 import { Logger } from '../../core/Logger';
+
+const { ccclass } = _decorator;
 
 /**
  * BootScene 控制器
  * 来源：PRD §4, DESIGN §5.1
  */
-export class BootSceneCtrl {
+@ccclass('BootSceneCtrl')
+export class BootSceneCtrl extends Component {
     private readonly logger = new Logger('BootSceneCtrl');
 
     public onLoad(): void {
