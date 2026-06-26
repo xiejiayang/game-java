@@ -90,9 +90,9 @@
 ## 4. 核心玩法系统
 
 ### 4.1 金钱与库存系统
-- [ ] 实现 `MoneyWallet.ts`：管理金钱上限、放置扣费、删除全额返还、结算时计算 `isFrugal = consumedMoney ≤ frugalThreshold`。（PRD §3.1, §5.2, ARCHITECTURE §5.1）
-- [ ] 实现 `Inventory.ts`：维护石墙、竹笼库存；库存不足时禁止放置，UI 显示 `.empty` 状态。（PRD §3.1, ARCHITECTURE §5.1）
-- [ ] 金钱不足、库存不足时通过 Toast 提示，不阻塞操作。（DESIGN §7.2）
+- [x] 实现 `MoneyWallet.ts`：管理金钱上限、放置扣费、删除全额返还、结算时计算 `isFrugal = consumedMoney ≤ frugalThreshold`。（PRD §3.1, §5.2, ARCHITECTURE §5.1）
+- [x] 实现 `Inventory.ts`：维护石墙、竹笼库存；库存不足时禁止放置，UI 显示 `.empty` 状态。（PRD §3.1, ARCHITECTURE §5.1）
+- [x] 金钱不足、库存不足时通过 Toast 提示，不阻塞操作。（DESIGN §7.2）
 
 ### 4.2 放置系统
 - [ ] 实现 `PlacementSystem.ts`：处理拖拽、网格吸附（默认 0.5 米网格）、旋转 90° 步进、删除区拖拽删除、碰撞检测。（PRD §5.2, ARCHITECTURE §5.1）
