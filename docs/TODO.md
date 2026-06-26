@@ -163,6 +163,7 @@
 
 ### 5.3 场景实现
 - [x] `BootSceneCtrl.ts` / `TitleSceneCtrl.ts` / `LevelMapSceneCtrl.ts` / `GameSceneCtrl.ts`：编写类型安全骨架，绑定事件与核心系统调用；通过 `tsc --noEmit`。
+- [x] `BootScene.scene` / `TitleScene.scene` / `LevelMapScene.scene` / `GameScene.scene`：已生成 JSON 占位，含 Canvas、Camera、基础 UI 节点与对应场景控制器脚本；可在编辑器中细调布局、动效、真实素材。
 - [ ] `BootScene.scene` + `BootSceneCtrl.ts`：
   - 全屏居中标题 + 副标题 + 进度条 + 加载文案「正在引水入渠…」。（DESIGN §5.1）
   - 资源预加载、版本号、静默登录/游客身份生成。（PRD §4）
